@@ -1,0 +1,12 @@
+-Pull: In github/remote repository, I have added this file "c-toPull.txt" with this pull description.
+  -Need to do command "git status" to check local repository's current status.
+  -This command output is:
+    Your branch is behind 'origin/main' by 2 commits, and can be fast-forwarded.
+          (use "git pull" to update your local branch)
+
+  Which mean remote repository's content need to pull into local repository.
+
+  -Command to pull content from remote repository.
+        git pull
+
+  Then local repo shows file "c-toPull.txt".

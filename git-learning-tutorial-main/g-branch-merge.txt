@@ -1,0 +1,15 @@
+-Merging branch: We have two branch "main" and "feature1" in our repository. When we are working with push and Pull
+        we added contents to the main branch what we don't have in our feature1 branch.
+
+        We are currently in main branch. As main branch ahead of the feature1 branch, 
+        we need to checkout to feature1 by the command "git checkout feature1".
+        
+        -Command to merge two branch.
+            git merge anotherBranchName          (anotherBranchName is the branch which we want to merge to our current branch)
+            git merge main
+
+        Now main branch and feature1 have the same content and feature1 need to push in origin feature1 branch.
+
+-Merging confliction: When two branch have same content but content changed in some portion. Then merging confliction occur.
+        If merging confliction occur we get some resoving messages to the file editor. We need to resolve confliction on hand on the editor file.
+        Then our current branch get the merge file how we want it, then we need to checkout to another branch. Then we can merge two branch without confliction.

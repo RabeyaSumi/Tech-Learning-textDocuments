@@ -1,0 +1,36 @@
+-Git initialize: Firstly we need to create a folder to our local computer. My folder name is 
+    "localRepository" which I have created in "Git Learning Documentation" folder. In this folder we will
+     initialize git. 
+
+    -Command to initialize git control to a folder.
+        git init
+
+    Now this is our git repository. In "Git Learning Documentation" we have two git repository.
+        git-learning-tutorial
+        localRepository
+    
+
+-Add origin: Our newly initialized git repository "localRepository" don't have a connected git origin repository.
+   
+    -Command to add/connect a remote repository.
+        git remote add origin https://github.com/RabeyaSumi/takeLocal.git             (by remote repo link)
+
+-Check origin:
+
+    -Command to check remote origin.
+        git remote -v
+
+    Now we will see our remotely connected 'fetched' origin link where we can 'push' our work.
+    This command output is -
+        origin  https://github.com/RabeyaSumi/takeLocal (fetch)
+        origin  https://github.com/RabeyaSumi/takeLocal (push)
+
+-Add files: Add and push two files "index.html" and "style.css" to this repository. We need to follow command from "a-status.txt" file.
+
+
+-Note: Now We have two git repository in our computer local folder "Git Learning Documentation".
+     (1)  git-learning-tutorial
+     (2)  localRepository
+    We have two remote origin repository fetched/connected with them.
+     (1)  https://github.com/RabeyaSumi/git-learning-tutorial
+     (2)  https://github.com/RabeyaSumi/takeLocal

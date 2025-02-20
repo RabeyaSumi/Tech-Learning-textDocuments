@@ -1,0 +1,11 @@
+-Open visual studio.
+-Create a folder to our local machine, my folder name is "Git Learning Documentation" and open with vsCode;
+-Create a github repogitory on github account, my repogitory name is "git-learning-tutorial". 
+ I have created this repository with files "1. About github&git", "2.Setup git", "3.Clone a git repo".
+-Finally, command to clone the repogitory to my local machine folder "Git Learning Documentation" using https.
+         git clone https://github.com/RabeyaSumi/Git-learning-tutorial.git
+-"git-learning-tutorial" cloned from github to local computer folder "Git Learning Documentation".
+-Command to go into the "git-leaning-tutorial" from "Git Learning Documentation".
+          cd git-learning-tutorial
+-Command to see all files in git folder "git-learning-tutorial"
+          ls

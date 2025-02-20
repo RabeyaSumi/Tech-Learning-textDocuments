@@ -1,0 +1,11 @@
+-Pull: I have added a paragraph <p>This line added from github.</p>
+    to the file index.html in remote github repository takeLocal. 
+    Now github repository ahead of local repository.
+    Then we need to pull content to the local repository.
+    If we command "git status" we will see output:
+        On branch main
+        Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+            (use "git pull" to update your local branch)
+
+    -Command to pull content from origin github to the local repository.
+        git pull origin branchName

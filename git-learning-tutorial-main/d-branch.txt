@@ -1,0 +1,48 @@
+-Branch: After oppening a repository from github origin, leftside of repository name branches shows as dropdown list.
+    We will learn about branch with our another repository "localRepository" 
+    which fetched up git repository is "takeLocal".
+    We have two empty files in this repository "index.html" and "style.css".
+
+    -Command to check branches.
+        git branch
+    This command output is 
+        *master
+
+-Rename Branch: 
+    -Command to rename a current branch.
+        git branch -m newBranchName
+        git branch -m main
+    Now my current branch name is 'main'
+
+-Create new branch: When we create another branch another branch get a copy of the current branch.
+    -Command to create a new branch.
+        git checkout -b newBranchName
+        git checkout -b feature1      (newly created another branch)
+
+    Now I have two branches
+    -Command to check branches.
+        *feature1
+        main
+    Now we have two branches, and current branch is '*' marked feature1. When we create branch we also checkout from another branch.
+    
+    Note: Now we have same two branch with all files. Then we can add files or content to the seperate branch seperately.
+
+-Checkout to another branch: To go to another branch we need to checkout from current branch.
+    -Command to go to another branch.
+        git checkout newBranchName
+        git checkout main
+
+    Now we are in main branch.
+
+-Delete branch: Before delete a branch we need to go to another branch. We are currently on main branch.
+    Now we can delete feature1.
+    
+    -Command to delete a branch.
+        git branch -d branchName
+        git branch -d feature1
+    Now we have only branch which is the main branch.
+
+    So, for the further work I am creating the branch again by the command "git checkout -b newBranchName".
+
+
+

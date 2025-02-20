@@ -1,0 +1,18 @@
+-Push: Our localRepository has two files index.html and style.css. 
+    I have added a paragraph <p>This is new html file</p> in index.html.
+    Before push content firstly we need to add and commit. 
+
+    -Command to push to origin.
+        git push origin branchName
+        git push origin main
+    
+-Upstream branch: From the current branch if we always want to push to a branch we can make that branch upstream branch.
+    -Command to make a branch upstream.
+        git push -u origin branchName
+        git push -u origin main
+    Now branch main set as a upstream branch.
+    Next time I just need to type command.
+        git push
+    And also for pull just need to command.
+        git pull
+

@@ -1,0 +1,42 @@
+-status: 
+    -Command to check git status.
+        git status
+
+-untracked status: when a new file created and git not yet tracked. 
+    Here I have created a new file "a-status.txt".
+    Now I need to add this file into the git repository.
+
+    -Command to add a new created file to git.
+               
+        git add filename
+        git add a-status.txt
+
+    After that, 'a-status.txt' file wait for commiting and get another state called 'staged'. 
+
+-modified status: when a file edit/modified it get modified status.
+    After modification file need to add. I have added content of "a-status.txt" file.
+    -Command to add a modified file.
+        git add filename  
+        git add a-status.txt
+
+    After that, 'a-status.txt' file wait for commiting and get another state called 'staged'.
+
+Note: untracked and modified files need to add with the command. 
+        
+        git add filename
+
+    Single command if we need to add all untracked/modified files.
+        git add .
+
+-Staged status: After adding, a file get 'staged' status and need to commit.
+    -Command to commit a file to git.
+        git commit -m "some messages"
+        git commit -m "Add file's text content"               (after adding content in a-status.txt)
+
+-Git push: Now finished commiting content of "a-status.txt" file content to local repo.
+    Now it need to be push to remote repository. Our remote origin is the repository we cloned, from 
+    github.
+    
+    -Command to push our newly commited work to the remote repo.
+        git push origin main
+    
